@@ -1,4 +1,4 @@
-/* Genel Ayarlar */
+ /* Genel Ayarlar */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -240,3 +240,21 @@ iframe {
   color: #0f0f0f;
   box-shadow: 0 0 10px #ffc0cb99;
 }
+.anime-list a[href*="dressup-episode"] {
+  background-color: #ffb6e9; /* pembiş zemin */
+  color: black;
+  padding: 10px 15px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #ffb6e9;
+}
+
+.anime-list a[href*="dressup-episode"]:hover {
+  background-color: #ff89d9; /* daha koyu pembiş */
+  box-shadow: 0 0 15px #ff89d9;
+  transform: scale(1.05);
+}
+
+
